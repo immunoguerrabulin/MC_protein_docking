@@ -1,0 +1,24 @@
+# macOS metadata
+._*
+.DS_Store
+
+# editor temp files
+*.swp
+*.swo
+*.swn
+
+# generated build artifacts
+nummod-jlguerra/nummod
+nummod-jlguerra/*.o
+tmp/
+
+# generated logs/plots/data dumps
+nummod-jlguerra/*.log
+nummod-jlguerra/*.dat
+
+# requested exclusions: TCL movie script + intermediate structures
+nummod-jlguerra/movie_frames.tcl
+nummod-jlguerra/frame_*.bmp
+nummod-jlguerra/translation/
+nummod-jlguerra/*.ms
+nummod-jlguerra/*.pdb

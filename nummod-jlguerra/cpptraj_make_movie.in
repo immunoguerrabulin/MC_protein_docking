@@ -1,0 +1,22 @@
+parm montecarlo0.ms
+trajin montecarlo0.ms
+trajin montecarlo1.ms
+trajin montecarlo2.ms
+trajin montecarlo3.ms
+trajin montecarlo4.ms
+trajin montecarlo5.ms
+trajin montecarlo6.ms
+trajin montecarlo7.ms
+trajin montecarlo8.ms
+trajin montecarlo9.ms
+trajin montecarlo10.ms
+trajin montecarlo11.ms
+trajin montecarlo12.ms
+trajin montecarlo13.ms
+trajin montecarlo14.ms
+trajin montecarlo15.ms
+trajin montecarlo16.ms
+trajin montecarlo17.ms
+trajin montecarlo18.ms
+autoimage
+trajout test.pdb
