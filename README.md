@@ -1,6 +1,6 @@
 # MC Protein Docking
 
-Course project code and inputs for Monte Carlo protein docking (AMS 548).
+Course project code and inputs for Monte Carlo protein docking (AMS 548: Optimization Techniques in Biomolecular Simulations at Stony Brook University taught by Dima Kozakov). This is repo is associated with this blog post: https://immunoguerrabulin.github.io/blog/2026/protein-docking-the-old-fashion-way/
 
 ## Requirements
 
@@ -38,7 +38,10 @@ cd nummod-jlguerra
 - `dock_energy_mc.dat`
 - `montecarlo*.ms` (accepted docking poses)
 - `translation/` files from the CoM translation test
-
+## To generate plots: 
+python plot_distance_vs_energy.py -i distance_vs_e_energy.dat -o distance_vs_e_energy.png
+and 
+python3 plot_dock_energy_mc.py -i dock_energy_mc.dat -o dock_energy_mc.png
 ## Docking Trajectory GIF
 
 [View full GIF](mc_protein_docking.gif)
