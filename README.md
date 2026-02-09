@@ -44,6 +44,5 @@ and
 python3 plot_dock_energy_mc.py -i dock_energy_mc.dat -o dock_energy_mc.png
 ## Docking Trajectory GIF
 
-[View full GIF](mc_protein_docking.gif)
 
 ![Monte Carlo protein docking trajectory](mc_protein_docking.gif)
